@@ -65,7 +65,9 @@ public abstract class BasePage {
             System.out.print(" => INVALID!");
             e.printStackTrace();
         } finally {
-            System.out.println();  //retrofit.
+            System.out.println();
+            // TODO: 19.02.2020 look for retrofit
+
         }
     }
 }
