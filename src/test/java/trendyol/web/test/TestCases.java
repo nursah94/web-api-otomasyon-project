@@ -17,6 +17,23 @@ public class TestCases extends BaseWebTest {
     @Test(priority = 1)
     @Description("Successfully sign-in")
     @Severity(SeverityLevel.BLOCKER)
+    public void search() throws InterruptedException {
+        HomePage homePage = new HomePage(driver, wait);
+        SearchPage searchPage = new SearchPage(driver, wait);
+        ProductPage productPage = new ProductPage(driver, wait);
+        homePage.goToTrendyol();
+        homePage.fillSearchField(Objects.requireNonNull(TestConfig.getProperty("search")));
+        searchPage.clickAnyProduct();
+        productPage.addToBasket();
+
+
+
+    }
+
+
+    @Test(priority = 1)
+    @Description("Successfully sign-in")
+    @Severity(SeverityLevel.BLOCKER)
     public void successSignIn() throws InterruptedException {
         HomePage homePage = new HomePage(driver, wait);
         homePage.goToTrendyol();
@@ -32,7 +49,7 @@ public class TestCases extends BaseWebTest {
     @Severity(SeverityLevel.BLOCKER)
     public void checkForBoutiqueImages() {
         HomePage homePage = new HomePage(driver, wait);
-        //homePage.goToTrendyol();
+        homePage.goToTrendyol();
         homePage.checkForBoutiqueImages();
     }
 
@@ -43,7 +60,7 @@ public class TestCases extends BaseWebTest {
         HomePage homePage = new HomePage(driver, wait);
         BoutiquePage boutiquePage = new BoutiquePage(driver, wait);
         SearchPage searchPage = new SearchPage(driver, wait);
-        //homePage.goToTrendyol();
+        homePage.goToTrendyol();
         homePage.clickTab(2);
         homePage.clickAnyBoutique();
         if (boutiquePage.isBoutiquePageOpened()) {
@@ -74,18 +91,18 @@ public class TestCases extends BaseWebTest {
     @Description("Add to cart")
     @Severity(SeverityLevel.BLOCKER)
     public void addToBasket() {
-        /*HomePage homePage = new HomePage(driver, wait);
+        HomePage homePage = new HomePage(driver, wait);
         BoutiquePage boutiquePage = new BoutiquePage(driver, wait);
-        SearchPage searchPage = new SearchPage(driver, wait);*/
+        SearchPage searchPage = new SearchPage(driver, wait);
         ProductPage productPage = new ProductPage(driver, wait);
-        /*homePage.goToTrendyol();
+        homePage.goToTrendyol();
         homePage.clickTab(2);
         homePage.clickAnyBoutique();
         if (boutiquePage.isBoutiquePageOpened()) {
             boutiquePage.clickAnyProduct();
         } else {
             searchPage.clickAnyProduct();
-        }*/
+        }
         productPage.chooseSize();
         productPage.addToBasket();
     }

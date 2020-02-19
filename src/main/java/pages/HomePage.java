@@ -27,6 +27,8 @@ public class HomePage extends BasePage {
     private String xPathBoutiqueImagesContainer = "//div[@class='component-list component-big-list']";
     private String classBoutiqueImageArticle = "component-item";
     private String xPathRandomBoutique = "//article[1]//a[1]//span[1]//img[1]";
+    private String searchField = "//*[@id=\"auto-complete-app\"]/div/div/input";
+
 
     public HomePage(WebDriver driver, WebDriverWait wait) {
         super(driver, wait);
@@ -36,6 +38,7 @@ public class HomePage extends BasePage {
     public void goToTrendyol() {
         driver.get(Objects.requireNonNull(TestConfig.getProperty("web_url")));
         closePopup();
+
     }
 
     // If the pop-up is opened on the home page, close
@@ -52,6 +55,17 @@ public class HomePage extends BasePage {
         WebElement webElement = driver.findElement(By.xpath(xPathSignInMenu));
         actions.moveToElement(webElement).build().perform();
         click(By.xpath(xPathSignInButton));
+    }
+
+
+    /*private void pressSpace() {
+        Actions action = new Actions(driver);
+        action.sendKeys(Keys.SPACE).build().perform();*/
+
+    @Step("Fills search field")
+    public void fillSearchField(String search) {
+        fillInput(By.xpath(searchField), search);
+        pressEnter();
     }
 
     @Step("Fills email field")
@@ -101,12 +115,17 @@ public class HomePage extends BasePage {
         click(By.xpath(xPathRandomBoutique));
     }
 
+
     @Step("Clicks tab")
     public void clickTab(int tabIndex) {
         scrollToTop();
         wait.until(ExpectedConditions.elementToBeClickable(
                 wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xPathMainTab)))
-                        .findElements(By.className(classTab)).get(tabIndex))
-        ).click();
+                        .findElements(By.className(classTab)).get(tabIndex))).click();
+
     }
 }
+
+
+
+

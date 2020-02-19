@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TrendyolTestResult">
+    <test name="TrendyolTestNG">
+        <parameter name="browser" value="Firefox"/>
+        <classes>
+            <class name="trendyol.web.test.TestCases" />
+        </classes>
+    </test>
+</suite>

@@ -14,9 +14,12 @@ abstract public class BaseProductsPage extends BasePage {
         super(driver, wait);
     }
 
+             //Container products  -  classProduct = boutique-product
+    //Container prdct-cntnr-wrppr  -  classProduct = p-card-wrppr
+
     public void validateProductImages(String classProductsContainer, String classProduct, String productPlaceHolderImageUrl) {
         List<WebElement> products = wait.until(ExpectedConditions.visibilityOfAllElements(driver
-                .findElement(By.className(classProductsContainer)).findElements(By.className(classProduct))));
+                    .findElement(By.className(classProductsContainer)).findElements(By.className(classProduct))));
         for (WebElement product : products) {
             String imageUrl = getImageUrl(product, productPlaceHolderImageUrl);
             validateImageUrl(imageUrl);

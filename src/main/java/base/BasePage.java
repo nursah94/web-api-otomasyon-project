@@ -26,6 +26,7 @@ public abstract class BasePage {
         WebElement webElement = wait.until(ExpectedConditions.elementToBeClickable(locator));
         webElement.clear();
         webElement.sendKeys(value);
+
     }
 
     public void scrollToTop() {
@@ -35,9 +36,10 @@ public abstract class BasePage {
 
     protected String getImageUrl(WebElement parent, String placeHolderImageUrl) {
         String imageUrl = wait.until(ExpectedConditions.visibilityOf(parent.findElement(By.tagName("img")))).getAttribute("src");
+
         if (imageUrl.equals(placeHolderImageUrl)) {
             pressSpace();
-            imageUrl = getImageUrl(parent, placeHolderImageUrl);
+            imageUrl = getImageUrl(parent, placeHolderImageUrl);  //recursive
         }
         return imageUrl;
     }
@@ -47,18 +49,23 @@ public abstract class BasePage {
         action.sendKeys(Keys.SPACE).build().perform();
     }
 
-    protected void validateImageUrl(String imageUrl) {
+    public void pressEnter() {
+        Actions action = new Actions(driver);
+        action.sendKeys(Keys.ENTER).build().perform();
+    }
+
+    protected void validateImageUrl(String imageUrl ) {
         System.out.print("Validating image url: " + imageUrl);
         try {
             HttpResponse response = HttpClientBuilder.create().build().execute(new HttpGet(imageUrl));
             if (response.getStatusLine().getStatusCode() != 200) {
-                System.out.print(" => INVALID!");
+                System.out.print(" => INVALID!" );
             }
         } catch (Exception e) {
             System.out.print(" => INVALID!");
             e.printStackTrace();
         } finally {
-            System.out.println();
+            System.out.println();  //retrofit.
         }
     }
 }

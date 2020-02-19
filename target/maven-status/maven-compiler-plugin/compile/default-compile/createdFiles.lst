@@ -1,0 +1,9 @@
+base\BasePage.class
+config\TestConfig.class
+endpoints\EndPoint.class
+pages\BoutiquePage.class
+pages\ProductPage.class
+pages\HomePage.class
+pages\SearchPage.class
+dto\BooksDto.class
+base\BaseProductsPage.class

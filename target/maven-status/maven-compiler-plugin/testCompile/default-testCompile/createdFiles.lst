@@ -1,0 +1,4 @@
+trendyol\api\APITestCase.class
+trendyol\web\test\TestCases.class
+trendyol\web\test\BaseWebTest.class
+trendyol\api\TestCases.class

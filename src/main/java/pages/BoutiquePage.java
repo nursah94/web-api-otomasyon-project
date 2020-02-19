@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
 public class BoutiquePage extends BaseProductsPage {
 
@@ -30,6 +31,7 @@ public class BoutiquePage extends BaseProductsPage {
         click(By.className("boutique-product"));
     }
 
+    @Step
     public boolean isBoutiquePageOpened() {
         wait.until(webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
         return driver.getCurrentUrl().contains(boutiqueUrlPart);
