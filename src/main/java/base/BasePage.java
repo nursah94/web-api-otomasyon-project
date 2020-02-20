@@ -66,7 +66,7 @@ public abstract class BasePage {
             e.printStackTrace();
         } finally {
             System.out.println();
-            // TODO: 19.02.2020 look for retrofit
+            // TODO: 19.02.2020 look for retrofit for SSL error
 
         }
     }

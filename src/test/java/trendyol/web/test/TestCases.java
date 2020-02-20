@@ -14,22 +14,18 @@ import java.util.Objects;
 
 public class TestCases extends BaseWebTest {
 
-    @Test(priority = 1)
-    @Description("Successfully sign-in")
-    @Severity(SeverityLevel.BLOCKER)
-    public void search() throws InterruptedException {
+    @Test(priority = 6)
+    @Description("Search in Homepage")
+    @Severity(SeverityLevel.MINOR)
+    public void search()  {
         HomePage homePage = new HomePage(driver, wait);
         SearchPage searchPage = new SearchPage(driver, wait);
         ProductPage productPage = new ProductPage(driver, wait);
         homePage.goToTrendyol();
         homePage.fillSearchField(Objects.requireNonNull(TestConfig.getProperty("search")));
-        searchPage.clickAnyProduct();
+        searchPage.clicSecondProduct();
         productPage.addToBasket();
-
-
-
     }
-
 
     @Test(priority = 1)
     @Description("Successfully sign-in")

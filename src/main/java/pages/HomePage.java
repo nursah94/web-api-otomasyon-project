@@ -38,10 +38,8 @@ public class HomePage extends BasePage {
     public void goToTrendyol() {
         driver.get(Objects.requireNonNull(TestConfig.getProperty("web_url")));
         closePopup();
-
     }
 
-    // If the pop-up is opened on the home page, close
     private void closePopup() {
         try {
             click(By.xpath(xPathPopUpCloseButton));
@@ -50,13 +48,12 @@ public class HomePage extends BasePage {
     }
 
     @Step("Clicks sign-in button on homepage")
-    public void clickSignInButton() throws InterruptedException {
+    public void clickSignInButton(){
         Actions actions = new Actions(driver);
         WebElement webElement = driver.findElement(By.xpath(xPathSignInMenu));
         actions.moveToElement(webElement).build().perform();
         click(By.xpath(xPathSignInButton));
     }
-
 
     /*private void pressSpace() {
         Actions action = new Actions(driver);
@@ -114,7 +111,6 @@ public class HomePage extends BasePage {
     public void clickAnyBoutique() {
         click(By.xpath(xPathRandomBoutique));
     }
-
 
     @Step("Clicks tab")
     public void clickTab(int tabIndex) {

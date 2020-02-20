@@ -2,7 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a6b7eba-3552-448e-a0a9-4438452f75f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/000e19c4-6623-4f08-95bf-3aa1a75d8b75-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/004ef775-3136-4f86-b05a-64e66580fbe6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0242a453-b569-45d5-b8a8-5efebe392efa-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/072606b3-517a-47e1-96a5-360c494babef-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/178a923d-43e1-4808-87bb-cf5d985570e1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1ef79387-1d95-4dc0-a733-c751feb85c5b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/25a38c46-4a31-463a-9308-062ccbdef752-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2faacb25-0301-4ed8-9b49-1954c9e7ae31-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/38a78a9d-a22f-4244-b7ea-f2f44aadda34-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4323c3e4-513d-44ac-bbb7-c11a94c5f049-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5164e0ff-d371-4c1e-8649-ace93bad0c32-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/553942eb-757f-44e5-815b-116e3e09ec31-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5d2bd021-6117-4f0c-a884-d733c80cafb2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/603abc49-c3b6-40a6-bf5f-6538247ce65d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/639b77d3-906e-4e67-8d64-318d45dc8eec-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6a9b8a35-02c5-42be-bf27-167c0c3047ec-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6cc25915-581f-4a58-a3db-a99e825d0b9f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7a738cb3-7372-4f90-beb0-f2249ede1841-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7bfb0eee-f195-4f1f-b88f-f1326d1ef6cd-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7c041992-ea07-4812-bdff-54c6518c2d1b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7f0ba46b-94bb-4f38-87b3-b938297e67f9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/80034101-be78-4f52-a5cf-39af3cd46685-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/80ca7a30-f973-4e23-b45d-6571600961ad-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/810293c3-da9f-463e-acc6-4b2bf1292014-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/84a9258c-0708-46b2-aedf-0d51e1d2256a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8eff410b-7330-480a-8a03-21db13118391-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/906ab1b6-3a24-4555-a3f3-9367d8033373-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/92cedcba-3c83-4fd0-bd99-d953857475d6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/959a35c2-71f0-4356-a0a9-88e5184bfec2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/95f1d46c-fbea-44ff-b61b-fdcdfec3d536-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/978787a6-075e-4352-8425-72fb9da97609-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/97b3b13d-2f66-41c5-8312-e94145774e48-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9d0a185d-129e-4493-883c-3917b86b8f4c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9da21428-1d84-43b5-8e84-55d4722ef047-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a969e66f-cf74-4ca9-8528-38c2d378b38a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b2435b5f-99bb-4e1c-8cd6-a2086e9dcc3d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b37dc492-503f-4ac0-a7a7-ac7cb89c44b0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b612eb3c-968f-4afe-8301-e2034058c5dc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c4888755-aa8e-4dd9-982f-568168cc1624-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c8d54280-d682-4edc-8ecc-42c76ab257cf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d7442bed-994a-4bd0-bb84-ff6764cc24eb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d8e536eb-e08d-458f-9753-c7aefa80d119-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e0af7ef0-4b9a-4413-bd70-89062bd6d666-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e30b22c2-3dec-4032-a6ec-dfd2569b0a18-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e416c0b4-d8a0-47d6-b1d5-6266b8a20c7e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e6f06827-e901-4566-818a-efa1e52c92b1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ea1ee879-171f-4511-87d3-925f74434f7a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/eab11e23-7b50-48b0-8818-c809d0d92c38-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/efcefa3e-a660-4939-8c62-d5b672d24377-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f34085b3-28aa-4843-80ba-9dfc95ae0b0f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f71827a2-3adc-4af1-9a30-7b90b909db09-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fdac855f-c472-46e6-95e3-c99774396ef7-result.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/trendyol/web/test/TestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/trendyol/web/test/TestCases.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-635">
-              <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+            <state relative-caret-position="198">
+              <caret line="112" column="5" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
               <folding>
                 <element signature="e#1422#1423#0" expanded="true" />
                 <element signature="e#1457#1458#0" expanded="true" />
@@ -45,14 +101,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/BoutiquePage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/trendyol/web/test/TestCases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="35" column="127" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="127" />
-              <folding>
-                <element signature="e#966#967#0" expanded="true" />
-                <element signature="e#1021#1022#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -67,28 +119,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/endpoints/EndPoint.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/BoutiquePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="527">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="e#966#967#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dto/BooksDto.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/trendyol/api/TestCases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="544">
+              <caret line="86" column="38" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/config/TestConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/SearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="43" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="43" />
+            <state relative-caret-position="283">
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#960#961#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/trendyol/web/test/BaseWebTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -105,25 +177,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/base/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+            <state relative-caret-position="255">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding>
                 <element signature="e#599#600#0" expanded="true" />
                 <element signature="e#683#684#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/SearchPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="25" column="31" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#783#784#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,13 +216,14 @@
         <option value="$PROJECT_DIR$/src/main/java/pages/BoutiquePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/BaseProductsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/trendyol/web/test/TestCases.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/BasePage.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="800" />
     <option name="width" value="1129" />
     <option name="height" value="1039" />
@@ -289,7 +348,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582112592350" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582175895007" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -421,7 +480,7 @@
       <updated>1581544669200</updated>
       <workItem from="1581544672535" duration="27224000" />
       <workItem from="1582004550947" duration="11897000" />
-      <workItem from="1582108861960" duration="1828000" />
+      <workItem from="1582108861960" duration="2955000" />
     </task>
     <servers />
   </component>
@@ -458,7 +517,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40949000" />
+    <option name="totallyTimeSpent" value="42076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -552,80 +611,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/trendyol/web/test/TestCases.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-958">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/trendyol/web/test/BaseWebTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/trendyol/api/APITestCase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/trendyol/api/TestCases.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="86" column="38" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/SearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ProductPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-635">
-          <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
-          <folding>
-            <element signature="e#1422#1423#0" expanded="true" />
-            <element signature="e#1457#1458#0" expanded="true" />
-            <element signature="e#2408#2409#0" expanded="true" />
-            <element signature="e#2467#2468#0" expanded="true" />
-            <element signature="e#2556#2557#0" expanded="true" />
-            <element signature="e#2621#2622#0" expanded="true" />
-            <element signature="e#2695#2696#0" expanded="true" />
-            <element signature="e#2751#2752#0" expanded="true" />
-            <element signature="e#3934#3935#0" expanded="true" />
-            <element signature="e#3986#3987#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/BoutiquePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="35" column="127" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="127" />
-          <folding>
-            <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,10 +653,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/trendyol/api/TestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="86" column="38" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/trendyol/web/test/TestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/trendyol/web/test/BaseWebTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ProductPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="112" column="5" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
+          <folding>
+            <element signature="e#1422#1423#0" expanded="true" />
+            <element signature="e#1457#1458#0" expanded="true" />
+            <element signature="e#2408#2409#0" expanded="true" />
+            <element signature="e#2467#2468#0" expanded="true" />
+            <element signature="e#2556#2557#0" expanded="true" />
+            <element signature="e#2621#2622#0" expanded="true" />
+            <element signature="e#2695#2696#0" expanded="true" />
+            <element signature="e#2751#2752#0" expanded="true" />
+            <element signature="e#3934#3935#0" expanded="true" />
+            <element signature="e#3986#3987#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/BoutiquePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/base/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+        <state relative-caret-position="255">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding>
             <element signature="e#599#600#0" expanded="true" />
             <element signature="e#683#684#0" expanded="true" />

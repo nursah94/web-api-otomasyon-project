@@ -17,6 +17,7 @@ public class SearchPage extends BaseProductsPage {
 
     private String classProductsContainer = "prdct-cntnr-wrppr";
     private String classProduct = "p-card-wrppr";
+    private String secondProduct = "//*[@id=\"search-app\"]/div/div[2]/div[2]/div[3]/div/div[2]/a/div[1]/img";
 
     public SearchPage(WebDriver driver, WebDriverWait wait) {
         super(driver, wait);
@@ -25,6 +26,11 @@ public class SearchPage extends BaseProductsPage {
     @Step("Clicks any product")
     public void clickAnyProduct() {
         click(By.className(classProduct));
+    }
+
+    @Step("Clicks second product")
+    public void clicSecondProduct() {
+        click(By.className(secondProduct));
     }
 
     @Step("Validates products images")
